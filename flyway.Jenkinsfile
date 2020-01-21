@@ -29,11 +29,7 @@ pipeline {
 			}
 		}
 
-#		stage('deploy') {
-	#		steps {
-	#			sh "kubectl apply -f Code/Embark\\ Solution/Polaris.Embark.CMS.API.deployment.yaml -f Code/Embark\\ Solution/Polaris.Embark.CMS.API.service.yaml"
-	#		}
 		}
-	}
+	
 }
 
